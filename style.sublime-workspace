@@ -1,0 +1,247 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"border",
+				"border-right"
+			],
+			[
+				"t",
+				"text-decoration"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"m",
+				"meta"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/openserver/domains/engine.loc/tmpl/main.tpl",
+		"/C/openserver/domains/getsimplecms/.htaccess",
+		"/C/Program Files (x86)/Ampps/www/next/.htaccess",
+		"/C/Program Files (x86)/Ampps/www/astra/.htaccess",
+		"/C/Program Files (x86)/Ampps/www/astra/install.php",
+		"/C/openserver/domains/engine.loc/lib/database_class.php",
+		"/C/openserver/domains/engine.loc/lib/checkvalid_class.php",
+		"/C/openserver/domains/engine.loc/lib/manage_class.php",
+		"/C/openserver/domains/engine.loc/lib/modules_class.php",
+		"/C/openserver/domains/engine.loc/lib/config_class.php",
+		"/C/openserver/domains/engine.loc/function.php",
+		"/C/openserver/domains/engine.loc/index.php",
+		"/C/Users/siobam/Desktop/textpattern-4.6.2/css.php",
+		"/C/Users/siobam/Desktop/textpattern-4.6.2/rpc/index.php",
+		"/C/Users/siobam/Desktop/textpattern-4.6.2/index.php",
+		"/F/888-casino.php",
+		"/C/Users/siobam/Desktop/Новая папка/index.html",
+		"/C/Users/siobam/Desktop/Новая папка/link1.html",
+		"/C/Users/siobam/Desktop/Новая папка/link2.html",
+		"/C/Users/siobam/Desktop/Новая папка/css.css",
+		"/C/Users/siobam/Desktop/site/index.html",
+		"/C/Users/siobam/Desktop/site/css/reset.css",
+		"/C/Users/siobam/Desktop/site/css/style.css",
+		"/C/Users/siobam/AppData/Local/Temp/Rar$DRa0.309/plain-plan-free-standard/html/css/style.css",
+		"/C/Users/siobam/AppData/Local/Temp/Rar$DRa0.856/plain-plan-free-standard/html/index.html",
+		"/C/Users/siobam/AppData/Local/Temp/Rar$DRa0.860/index.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"enu"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "style.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
