@@ -80,7 +80,9 @@ header {
 
 .tabs_header {
   margin-top: 50px;
-  display: inline-block; }
+  display: inline-block;
+  width: 100%;
+  max-width: 800px; }
   .tabs_header ul, .tabs_header li {
     list-style-type: none;
     margin: 0;
@@ -96,7 +98,7 @@ header {
   .tabs_header .tabs .tab {
     display: inline-block;
     background-color: rgba(225, 225, 225, 0.25);
-    padding: 15px 18px;
+    padding: 15px 10px;
     text-transform: uppercase;
     cursor: pointer;
     float: left;

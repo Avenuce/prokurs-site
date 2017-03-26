@@ -1,6 +1,12 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
+@media (min-height: 620px) and (min-width: 1440px){
+	.tabs_header{
+		position: absolute;
+		bottom: 80px;
+	}
+}
 @media only screen and (max-width : 1200px) {
 
 }
@@ -30,19 +36,24 @@
 		margin-top: 30px;
 	}
 	.top_header h1{
-		font-size: 50px;
+		font-size: 35px;
 		line-height:50px;
+		text-align: center;
 	}
 	.top_header h2{
 		font-size:28px;
 	}
 	.tabs_header .tabs .tab{
-		font-size: 11px;
-		padding: 15px 5px; 
+		font-size: 10px;
+		padding: 15px 3.8px; 
 	}
 	.button_wrap .button {
 		text-align: center;
 		font-size: 13px;
+		padding: 0 23px;
+	}
+	.tabs_header .tab_content{
+		padding: 12px 5px 16px;
 	}
 }
 
