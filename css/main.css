@@ -43,7 +43,7 @@ header {
   background-position: top center;
   background-size: cover;
   color: #fff;
-  padding-top: 32px; }
+  padding: 32px 40px; }
 
 .logo {
   font-size: 40px;
@@ -52,6 +52,12 @@ header {
 
 .top_phone {
   text-align: right; }
+
+.tab_item {
+  display: none; }
+
+.tab_item:first-child {
+  display: block; }
 
 .top_phone .wrapper .tab {
   text-transform: uppercase;
@@ -65,14 +71,80 @@ header {
   font-size: 34px;
   font-family: "RobotoBold", sans-serif; }
 
-.top_phone .tab_item:first-child {
-  display: block; }
-
 .top_header {
   margin-top: 70px; }
   .top_header h2 {
     margin: 10px 0 0;
     font-family: "CleanvertisingLight", sans-serif;
     font-size: 36px; }
+
+.tabs_header {
+  margin-top: 50px;
+  display: inline-block; }
+  .tabs_header ul, .tabs_header li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  .tabs_header li {
+    list-style-type: none;
+    padding-left: 40px;
+    margin-bottom: 12px;
+    background-image: url(D:/site/img/1.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    font-family: "RobotoBold", sans-serif; }
+  .tabs_header .tabs .tab {
+    display: inline-block;
+    background-color: rgba(225, 225, 225, 0.25);
+    padding: 15px 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    float: left;
+    font-family: "RobotoBold", sans-serif;
+    font-weight: bold;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease; }
+    .tabs_header .tabs .tab.active {
+      background-color: rgba(225, 225, 225, 0.6);
+      color: #000; }
+  .tabs_header .tab_content {
+    background-color: rgba(225, 225, 225, 0.6);
+    padding: 12px 18px 16px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "RobotoBold", sans-serif; }
+
+.button {
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  height: 46px;
+  line-height: 46px;
+  padding: 0 32px;
+  background-color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: "RobotoBold", sans-serif; }
+  .button.btn_red {
+    background-color: #9B1818; }
+  .button.btn_green {
+    background-color: #67bc5c; }
+  .button.btn_white {
+    background-color: #fff;
+    color: #000; }
+
+a.button {
+  color: #fff;
+  text-decoration: none; }
+
+.button_wrap {
+  text-align: right; }
 
 /*# sourceMappingURL=main.css.map */
