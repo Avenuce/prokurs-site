@@ -13,7 +13,18 @@ body
 	position: relative
 	line-height: 1.6
 	-webkit-font-smoothing: antialised
-
+	box-sizing: border-box
+.container
+	position: relative
+	width: 100%
+	max-width: 1170px
+	height: auto
+	margin: 0 auto
+	padding: 0
+.top_line
+	width: 100%
+	height: auto
+	margin-bottom: 70px
 h1
 	color: #fff
 	font-size: 60px
@@ -41,6 +52,8 @@ body textarea:required:valid
 
 .hidden
 	display: none
+.display_tab
+	display: none
 header
 	min-height: 640px
 	background-image: url(../img/top_bg.jpg)
@@ -49,11 +62,15 @@ header
 	color: #fff
 	padding: 32px 40px
 .logo
+	float: left
+	width: 50%
 	font-size: 40px
 	font-family: "RobotoBold", sans-serif
 	font-weight: bold
 .top_phone
 	text-align: right
+	width: 50%
+	float: right
 .tab_item
 	display: none
 .tab_item:first-child
@@ -67,16 +84,13 @@ header
 	display: none
 	font-size: 34px
 	font-family: "RobotoBold", sans-serif
-.top_header
-	margin-top: 70px
+hgroup
 	h2
 		margin: 10px 0 0
 		font-family: "CleanvertisingLight", sans-serif
 		font-size: 36px
 .tabs_header
 	margin-top: 50px
-	display: inline-block
-	width: 100%
 	max-width: 800px
 	ul, li
 		list-style-type: none

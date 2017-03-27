@@ -1,11 +1,7 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media (min-height: 620px) and (min-width: 1440px){
-	.tabs_header{
-		position: absolute;
-		bottom: 80px;
-	}
+@media (min-width: 1440px){
 }
 @media only screen and (max-width : 1200px) {
 
@@ -18,14 +14,25 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-.top_phone, .logo, .top_header h1, .top_header h2{
+hgroup h1, hgroup h2{
 		text-align: center;
-	}
-.logo{
-	margin-bottom: 15px;
 	}
 .top_phone .tab_item{
 	font-size: 30px;
+	}
+	.logo, .top_phone{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.top_line{
+		margin-bottom: 35px;
+	}
+	.display_tab{
+		display: inline-block;
+	}
+	.hidden_tab{
+		display: none;
 	}
 
 }
@@ -35,17 +42,18 @@
 	.top_header{
 		margin-top: 30px;
 	}
-	.top_header h1{
-		font-size: 35px;
+	
+	hgroup h1{
+		font-size: 37px;
 		line-height:50px;
 		text-align: center;
 	}
-	.top_header h2{
-		font-size:28px;
+	hgroup h2{
+		font-size:27px;
 	}
 	.tabs_header .tabs .tab{
-		font-size: 10px;
-		padding: 15px 3.8px; 
+		font-size: 11px;
+		padding: 15px 4.8px; 
 	}
 	.button_wrap .button {
 		text-align: center;
@@ -55,6 +63,9 @@
 	.tabs_header .tab_content{
 		padding: 12px 5px 16px;
 	}
+	.top_phone .tab_item {
+    font-size: 27px;
+}
 }
 
 /* Custom, iPhone Retina */
