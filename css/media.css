@@ -4,12 +4,35 @@
 @media (min-width: 1440px){
 }
 @media only screen and (max-width : 1200px) {
-
+	.st_topLine .bg_img1, .st_topLine p {
+		display: block;
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.st_topLine li{
+		width: 25%;
+	}
+}
+@media only screen and (max-width: 1120px){
+	.st_topLine .bg_img1, .st_topLine p {
+		display: inline-block;
+		text-align: left;
+	}
+	.st_topLine li{
+		width: 40%;
+	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
+}
+
+@media only screen and (max-width: 840px){
+	.st_topLine li{
+		width: 100%;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -34,6 +57,7 @@ hgroup h1, hgroup h2{
 	.hidden_tab{
 		display: none;
 	}
+	
 
 }
 
@@ -65,6 +89,15 @@ hgroup h1, hgroup h2{
 	}
 	.top_phone .tab_item {
     font-size: 27px;
+}
+.st_topLine p{
+	padding-right: 0; 
+}
+.st_topLine span{
+	font-size: 10px;
+}
+.st_topLine strong{
+	font-size: 17px;
 }
 }
 

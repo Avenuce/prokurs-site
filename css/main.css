@@ -9,6 +9,11 @@ body {
   -webkit-font-smoothing: antialised;
   box-sizing: border-box; }
 
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
 .container {
   position: relative;
   width: 100%;
@@ -30,11 +35,11 @@ h1 {
   font-family: "CleanvertisingLight", sans-serif;
   margin: 0; }
 
-section {
+header section {
   padding: 58px 0 68px; }
-  section.s_dark h2, section.s_dark h3, section.s_dark p {
+  header section.s_dark {
     color: #fff; }
-  section h2 {
+  header section h2 {
     color: #003469;
     font-size: 50px;
     line-height: 56px;
@@ -55,12 +60,14 @@ body textarea:required:valid {
   display: none; }
 
 header {
+  padding: 32px 40px; }
+
+header {
   min-height: 640px;
   background-image: url(../img/top_bg.jpg);
   background-position: top center;
   background-size: cover;
-  color: #fff;
-  padding: 32px 40px; }
+  color: #fff; }
 
 .logo {
   float: left;
@@ -100,12 +107,7 @@ hgroup h2 {
 .tabs_header {
   margin-top: 50px;
   max-width: 800px; }
-  .tabs_header ul, .tabs_header li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0; }
   .tabs_header li {
-    list-style-type: none;
     padding-left: 40px;
     margin-bottom: 12px;
     background-image: url(D:/site/img/1.png);
@@ -165,5 +167,45 @@ a.button {
 
 .button_wrap {
   text-align: right; }
+
+.s_tizers {
+  padding: 50px 40px 0;
+  background-color: #c6d8ee;
+  background-image: -webkit-linear-gradient(#c6d8ee, #e8eff7);
+  background-image: linear-gradient(#c6d8ee, #e8eff7);
+  color: #003469;
+  font-family: "CleanvertisingLight", sans-serif;
+  font-size: 14px; }
+
+.st_topLine {
+  max-width: 1170px;
+  margin: 0 auto; }
+  .st_topLine ul {
+    width: 100%; }
+  .st_topLine li {
+    line-height: 28px;
+    display: inline-block;
+    float: left;
+    padding-right: 5px; }
+    .st_topLine li:nth-child(1) {
+      padding-right: 5%; }
+    .st_topLine li:last-child {
+      padding-right: 0; }
+  .st_topLine p {
+    display: inline-block;
+    margin: 0;
+    padding-right: 5px; }
+  .st_topLine strong {
+    display: block;
+    font-size: 20px; }
+  .st_topLine .bg_img1 {
+    display: inline-block;
+    width: 65px;
+    height: 56px;
+    float: left;
+    padding-right: 15px;
+    background-image: url(D:/site/img/1.png);
+    background-repeat: no-repeat;
+    background-size: 56px 65px; }
 
 /*# sourceMappingURL=main.css.map */
