@@ -32,14 +32,14 @@ $(document).ready(function() {
 	
 });
 
-//Фия, которая подгоняет картинку под экран
+/*Фия, которая подгоняет картинку под экран
 function wResize(){
 	$('header').css('min-height', $(window).height());// высота хедера такая же, как у окна	
 }
 wResize();
 $(window).resize(function(){
 	wResize(); //фия будет инициализироваться как при загрузке, так и при ресайзе
-});
+});*/
 
 //ф-ия, которая делает тыбадля телефона
 $(".top_phone .wrapper .tab").click(function() {

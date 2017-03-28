@@ -208,4 +208,14 @@ a.button {
     background-repeat: no-repeat;
     background-size: 56px 65px; }
 
+.s_profi h2 {
+  color: #003469;
+  font-size: 50px;
+  line-height: 56px;
+  margin-bottom: 50px;
+  font-family: "CleanvertisingLight", sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: normal; }
+
 /*# sourceMappingURL=main.css.map */

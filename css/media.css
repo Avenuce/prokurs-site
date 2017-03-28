@@ -80,9 +80,11 @@ hgroup h1, hgroup h2{
 		padding: 15px 4.8px; 
 	}
 	.button_wrap .button {
-		text-align: center;
 		font-size: 13px;
 		padding: 0 23px;
+	}
+	.button_wrap {
+		text-align: center;
 	}
 	.tabs_header .tab_content{
 		padding: 12px 5px 16px;
