@@ -9,14 +9,26 @@ body {
   -webkit-font-smoothing: antialised;
   box-sizing: border-box; }
 
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green; }
+
 ul, li {
   list-style-type: none;
   margin: 0;
   padding: 0; }
 
+.wrapper {
+  width: 100%;
+  height: auto;
+  margin: 0 auto; }
+
 .container {
   position: relative;
-  width: 100%;
   max-width: 1170px;
   height: auto;
   margin: 0 auto;
@@ -24,7 +36,6 @@ ul, li {
 
 .top_line {
   width: 100%;
-  height: auto;
   margin-bottom: 70px; }
 
 h1 {
@@ -32,8 +43,7 @@ h1 {
   font-size: 60px;
   line-height: 56px;
   font-weight: bold;
-  font-family: "CleanvertisingLight", sans-serif;
-  margin: 0; }
+  font-family: "CleanvertisingLight", sans-serif; }
 
 header section {
   padding: 58px 0 68px; }
@@ -45,14 +55,6 @@ header section {
     line-height: 56px;
     margin-bottom: 50px; }
 
-body input:focus:required:invalid,
-body textarea:focus:required:invalid {
-  color: red; }
-
-body input:required:valid,
-body textarea:required:valid {
-  color: green; }
-
 .hidden {
   display: none; }
 
@@ -63,7 +65,6 @@ header {
   padding: 32px 40px; }
 
 header {
-  min-height: 640px;
   background-image: url(../img/top_bg.jpg);
   background-position: top center;
   background-size: cover;
@@ -169,7 +170,7 @@ a.button {
   text-align: right; }
 
 .s_tizers {
-  padding: 50px 40px 0;
+  padding: 50px 40px 40px;
   background-color: #c6d8ee;
   background-image: -webkit-linear-gradient(#c6d8ee, #e8eff7);
   background-image: linear-gradient(#c6d8ee, #e8eff7);
@@ -185,12 +186,13 @@ a.button {
   .st_topLine li {
     line-height: 28px;
     display: inline-block;
-    float: left;
-    padding-right: 5px; }
+    float: left; }
     .st_topLine li:nth-child(1) {
-      padding-right: 5%; }
-    .st_topLine li:last-child {
-      padding-right: 0; }
+      padding-right: 8.2%; }
+    .st_topLine li:nth-child(2) {
+      padding-right: 5.6%; }
+    .st_topLine li:nth-child(3) {
+      padding-right: 2.2%; }
   .st_topLine p {
     display: inline-block;
     margin: 0;
@@ -216,6 +218,7 @@ a.button {
   font-family: "CleanvertisingLight", sans-serif;
   text-align: center;
   margin-top: 50px;
-  font-weight: normal; }
+  font-weight: normal;
+  font-size: 15px; }
 
 /*# sourceMappingURL=main.css.map */

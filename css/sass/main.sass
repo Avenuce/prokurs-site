@@ -14,20 +14,28 @@ body
 	line-height: 1.6
 	-webkit-font-smoothing: antialised
 	box-sizing: border-box
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
 ul, li
 	list-style-type: none
 	margin: 0
 	padding: 0
+.wrapper
+	width: 100%
+	height: auto
+	margin: 0 auto
 .container
 	position: relative
-	width: 100%
 	max-width: 1170px
 	height: auto
 	margin: 0 auto
 	padding: 0
 .top_line
 	width: 100%
-	height: auto
 	margin-bottom: 70px
 h1
 	color: #fff
@@ -35,8 +43,6 @@ h1
 	line-height: 56px
 	font-weight: bold
 	font-family: "CleanvertisingLight", sans-serif
-	margin: 0
-
 header section
 	padding: 58px 0 68px
 	&.s_dark
@@ -47,13 +53,6 @@ header section
 		font-size: 50px
 		line-height: 56px
 		margin-bottom: 50px
-body input:focus:required:invalid,
-body textarea:focus:required:invalid
-	color: red
-body input:required:valid,
-body textarea:required:valid
-	color: green
-
 .hidden
 	display: none
 .display_tab
@@ -61,7 +60,6 @@ body textarea:required:valid
 header
 	padding: 32px 40px
 header
-	min-height: 640px
 	background-image: url(../img/top_bg.jpg)
 	background-position: top center
 	background-size: cover
@@ -151,12 +149,10 @@ hgroup
 a.button
 	color: #fff
 	text-decoration: none
-
 .button_wrap
 	text-align: right
-
 .s_tizers
-	padding: 50px 40px 0
+	padding: 50px 40px 40px
 	+linear-gradient(#c6d8ee, #e8eff7)
 	color: $blue-color
 	font-family: "CleanvertisingLight", sans-serif
@@ -170,11 +166,12 @@ a.button
 		line-height: 28px
 		display: inline-block
 		float: left
-		padding-right: 5px
 		&:nth-child(1)
-			padding-right: 5%
-		&:last-child
-			padding-right: 0
+			padding-right: 8.2%
+		&:nth-child(2)
+			padding-right: 5.6%
+		&:nth-child(3)
+			padding-right: 2.2%		
 	p
 		display: inline-block
 		margin: 0
@@ -182,7 +179,6 @@ a.button
 	strong
 		display: block
 		font-size: 20px
-
 	.bg_img1
 		display: inline-block
 		width: 65px
@@ -202,4 +198,4 @@ a.button
 		text-align: center
 		margin-top: 50px
 		font-weight: normal
-		
+		font-size: 15px
