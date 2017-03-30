@@ -1,8 +1,6 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media (min-width: 1440px){
-}
 @media only screen and (max-width : 1200px) {
 	.st_topLine .bg_img1, .st_topLine p {
 		display: block;
@@ -12,17 +10,20 @@
 	}
 	.st_topLine li{
 		width: 25%;
+		margin: 0;
+		padding: 0;
 	}
 }
-@media only screen and (max-width: 1120px){
+@media only screen and (max-width: 1020px){
 	.st_topLine .bg_img1, .st_topLine p {
 		display: inline-block;
 		text-align: left;
 	}
 	.st_topLine li{
-		width: 45%;
+		width: 40%;
 	}
 }
+
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {

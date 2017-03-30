@@ -29,6 +29,7 @@ ul, li {
 
 .container {
   position: relative;
+  width: 100%;
   max-width: 1170px;
   height: auto;
   margin: 0 auto;
@@ -209,15 +210,45 @@ a.button {
     background-repeat: no-repeat;
     background-size: 56px 65px; }
 
-.s_profi h2 {
-  color: #003469;
-  font-size: 50px;
-  line-height: 56px;
-  margin-bottom: 50px;
-  font-family: "CleanvertisingLight", sans-serif;
-  text-align: center;
-  margin-top: 50px;
-  font-weight: normal;
-  font-size: 15px; }
+.s_profi {
+  margin: 0 auto;
+  max-width: 1170px; }
+  .s_profi h2 {
+    color: #003469;
+    font-size: 50px;
+    line-height: 56px;
+    margin-bottom: 50px;
+    font-family: "CleanvertisingLight", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: normal; }
+  .s_profi h3 {
+    font-size: 30px;
+    font-weight: normal; }
+  .s_profi .list_profi {
+    display: inline-block;
+    max-width: 730px;
+    margin: 0 5px; }
+    .s_profi .list_profi .bg_img1 {
+      display: inline-block;
+      width: 95px;
+      height: 95px;
+      float: left;
+      padding-right: 15px;
+      background-image: url(D:/site/img/1.png);
+      background-repeat: no-repeat;
+      background-size: 56px 65px; }
+  .s_profi .form_profi {
+    padding: 25px 30px;
+    margin: 0 5px;
+    min-width: 350px;
+    display: inline-block;
+    float: none;
+    border: 3px solid #67bc5c;
+    border-radius: 5px; }
+    .s_profi .form_profi label {
+      display: block;
+      border: 1px solid grey;
+      padding: 15px; }
 
 /*# sourceMappingURL=main.css.map */
