@@ -223,31 +223,42 @@ a.button {
     margin-top: 50px;
     font-weight: normal; }
   .s_profi h3 {
+    display: inline-block;
     font-size: 30px;
-    font-weight: normal; }
+    line-height: 25px;
+    padding: 0;
+    margin: 15px 0 15px 0;
+    font-weight: normal;
+    color: #9B1818; }
   .s_profi .list_profi {
     display: inline-block;
     max-width: 730px;
     margin: 0 5px; }
+    .s_profi .list_profi li {
+      clear: both; }
     .s_profi .list_profi .bg_img1 {
-      display: inline-block;
       width: 95px;
       height: 95px;
-      padding-right: 15px;
+      margin: 15px 35px 5px 0;
       background-image: url(D:/site/img/1.png);
       background-repeat: no-repeat;
-      background-size: 56px 65px; }
+      background-size: cover;
+      float: left;
+      background-color: #9B1818;
+      border-radius: 50%; }
+    .s_profi .list_profi p {
+      margin: 0; }
   .s_profi .form_profi {
     padding: 25px 30px;
     margin: 0 5px;
     min-width: 350px;
-    display: inline-block;
-    float: none;
+    float: right;
     border: 3px solid #67bc5c;
     border-radius: 5px; }
     .s_profi .form_profi label {
-      display: block;
-      border: 1px solid grey;
-      padding: 15px; }
+      display: block; }
+      .s_profi .form_profi label input {
+        border: 1px solid grey;
+        padding: 15px; }
 
 /*# sourceMappingURL=main.css.map */
