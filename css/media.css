@@ -22,6 +22,17 @@
 	.st_topLine li{
 		width: 40%;
 	}
+	.list_profi li{
+		text-align: center;
+	}
+	.s_profi .list_profi .bg_img1{
+		display: block;
+		margin: 0 auto;
+		float: none;
+	}
+	.s_profi .list_profi{
+		max-width: 1020px;
+	}
 }
 
 
