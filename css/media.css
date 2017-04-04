@@ -35,6 +35,13 @@
 		margin-right: 40px;
 	}
 }
+@media only screen and (max-width: 1175px){
+	.s_profi .list_profi,
+	.s_profi .form_profi{
+		max-width: none;
+		width: 100%;
+	}
+}
 
 
 /* Medium Devices, Desktops */
@@ -69,6 +76,15 @@
 	}
 	.hidden_tab{
 		display: none;
+	}
+	.s_profi h2{
+		font-size: 25px;
+		margin:0;
+		margin-bottom: 15px;
+		line-height: 25px;
+	}
+	.s_profi .list_profi{
+		margin: 0;
 	}
 }
 
@@ -112,6 +128,11 @@
 	.st_topLine strong{
 		font-size: 17px;
 	}
+	.s_profi .form_profi .button {
+    margin: 0 auto;
+    width: 100%;
+    font-size: 14px;
+    padding: 0px;
 }
 
 /* Custom, iPhone Retina */
