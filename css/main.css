@@ -233,7 +233,6 @@ a.button {
     color: #9B1818; }
   .s_profi .list_profi {
     display: inline-block;
-    width: 100%;
     max-width: 730px;
     margin: 0 5px; }
     .s_profi .list_profi li {
