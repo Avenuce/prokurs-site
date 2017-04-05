@@ -81,9 +81,9 @@ header
 .top_phone .wrapper .tab
 	text-transform: uppercase
 	clip: pointer
-.top_phone .wrapper .active
+.top_phone .wrapper .active, .bot_phone .wrapper .active
 	text-decoration: underline
-.top_phone .tab_item 
+.top_phone .tab_item, .bot_phone .tab_item 
 	display: none
 	font-size: 34px
 	font-family: "RobotoBold", sans-serif
@@ -258,3 +258,19 @@ a.button
 			margin: 10px 0 30px
 			font-size: 20px
 			padding: 15px
+.s_footer
+	margin: 0 auto
+	padding: 90px 40px 190px
+	text-align: center
+	clear: both
+	.button_wrap
+		text-align: center
+		margin-top: 40px
+	h2
+		font-size: 50px
+		font-weight: normal
+	p
+		font-size: 18px
+		margin: 50px 0 60px
+	.bot_phone .wrapper
+		color: $red_color
