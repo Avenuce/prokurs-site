@@ -296,4 +296,25 @@ a.button {
   .s_footer .bot_phone .wrapper {
     color: #9B1818; }
 
+.s_rewview {
+  min-height: 500px;
+  background-image: url(../img/middle_bg.jpg);
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  margin: 0 auto;
+  max-width: 1170px;
+  text-align: center; }
+  .s_rewview h2 {
+    display: inline-block;
+    margin: 0 auto;
+    color: #fff;
+    width: 100%;
+    float: none; }
+  .s_rewview .img_wrap img {
+    display: inline-block;
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    border: 10px solid grey; }
+
 /*# sourceMappingURL=main.css.map */
