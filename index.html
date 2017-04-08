@@ -15,10 +15,11 @@
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/media.css" />
+	<script type="text/javascript" src="js/slider.js"></script>
 
 </head>
 <body>
-	<div id=wrapper>
+	<!--<div id=wrapper>
 		<header>
 			<div class='container clearfix'>
 				<div class='top_line clearfix'>
@@ -172,7 +173,37 @@
 		<div class='button_wrap'>
 			<a href='#' class="button btn_red">Заказать звонок</a>
 		</div>
-	</footer>
+	</footer>-->
+
+<div class="slider" id="slider1">
+	<div class="slider-content">
+		<div class="slider-item"> 
+			<img src="./img/1.png">
+		</div>
+		<div class="slider-item"> 
+			<img src="./img/1.png">
+		</div>
+		<div class="slider-item"> 
+			<img src="./img/1.png">
+		</div>		
+		<div class="slider-item"> 
+			<img src="./img/1.png">
+		</div>		
+		<button class="slider-button slider-button-prev" data-cation="left">prev</button>
+		<button class="slider-button slider-button-next" data-cation="right">next</button>
+	</div>
+</div>
+	<!--<script type="text/javascript">
+		var s1 = new Slider({
+			sliderId : 'slider1',
+			slidesToShow: 3,
+			infinite: false,
+		});
+	</script>
+
+
+
+
 	<div class="hidden"></div>
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
